@@ -1,16 +1,21 @@
-# heartrate2
+# BioSync R1
 
-A new Flutter project.
+This is a **Flutter-based mobile application** that connects with an **ESP32 via Bluetooth Low Energy (BLE)** to receive **heart rate data** from a MAX30102 sensor and **motion data** from an MPU6050 sensor. The app visualizes real-time biometric and movement data.
 
-## Getting Started
+## Features  
+- 📡 **BLE Connectivity**: Connects to ESP32 for real-time data transfer.  
+- ❤️ **Heart Rate Monitoring**: Displays BPM from MAX30102 sensor.  
+- 🔄 **Motion Tracking**: Reads accelerometer and gyroscope data from MPU6050.  
+- 📊 **Real-time Data Display**: Shows sensor readings dynamically in the app.  
 
-This project is a starting point for a Flutter application.
+## Tech Stack  
+- **Flutter** (UI & App Logic)  
+- **Flutter Blue Plus** (BLE communication)  
+- **ESP32** (Microcontroller)  
+- **MAX30102** (Heart Rate Sensor)  
+- **MPU6050** (Accelerometer & Gyroscope)  
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation  
+1. Clone this repository:  
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
