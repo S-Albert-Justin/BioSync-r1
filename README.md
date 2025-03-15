@@ -16,7 +16,4 @@ note: this version does not connect with blutooth. the version which connects wi
 - **MAX30102** (Heart Rate Sensor)  
 - **MPU6050** (Accelerometer & Gyroscope)  
 
-## Installation  
-1. Clone this repository:  
-   ```sh
-   git clone https://github.com/your-username/your-repo.git
+
